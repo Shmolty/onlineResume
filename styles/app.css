@@ -12,11 +12,21 @@ header{
     background-color: #EEEEEE;
     background-image: linear-gradient(to top, #EEEEEE, #FFFFFF);
 }
+footer{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    border-top: 3px solid;
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+    padding: 15px;
+    background-color: #EEEEEE;
+    background-image: linear-gradient(to bottom, #EEEEEE, #FFFFFF);
+}
 #wrapper {
     margin-left: auto; margin-right: auto;
     width: 80%;
     background-color: #FFFFFF;
-    background-image: linear-gradient(to bottom, #FFFFFF, #EEEEEE);
     box-shadow: -3px 3px 3px #333333;
     border: 1px solid #333333;
     padding: 10px;

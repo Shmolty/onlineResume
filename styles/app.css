@@ -1,0 +1,12 @@
+body{
+    background-color: #7142af;
+}
+#wrapper {
+    margin-left: auto; margin-right: auto;
+    width: 80%;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #FFFFFF, #EEEEEE);
+    box-shadow: -3px 3px 3px #333333;
+    border: 1px solid #333333;
+    padding: 10px;
+}

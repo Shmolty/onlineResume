@@ -1,6 +1,17 @@
 body{
     background-color: #7142af;
 }
+header{
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    border-bottom: 3px solid;
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+    padding-bottom: 15px;
+    background-color: #EEEEEE;
+    background-image: linear-gradient(to top, #EEEEEE, #FFFFFF);
+}
 #wrapper {
     margin-left: auto; margin-right: auto;
     width: 80%;

@@ -66,16 +66,16 @@
 
         <h3 class="display-7 fw-bold m-4">Contact Form</h3>
         <p class="fw-5 m-4"><strong>IMPORTANT NOTE:</strong> At this time, I do not have the funds or bandwidth to set up a functional backend to send this form through to. The form will still validate with JS, but submitting simply refreshes the form.</p>
-        <form class="m-4">
+        <form class="m-4 contactForm">
           <div class="mb-3">
             <label for="email1" class="form-label">Email address</label>
             <input type="email" class="form-control"  style="width: 18em;" id="email1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">I will never share your email with anyone else.</div>
+            <div id="emailHelp" class="form-text text-danger"></div>
           </div>
           <div class="mb-3">
             <label for="phoneNum1" class="form-label">Phone Number -- <i>Optional</i></label>
             <input type="tel" class="form-control" style="width: 18em;" id="phoneNum1">
-            <div id="phoneHelp" class="form-text"><i>I will never share your phone number with anyone else</div>
+            <div id="phoneHelp" class="form-text text-danger"></div>
           </div>
           <div class="mb-3 form-check">
             <input type="radio" class="form-check-input" id="radio1"">
@@ -91,7 +91,7 @@
           </div>
           <div class="mb-3">
             <label for="comment1" class="form-label">Comments</label>
-            <input type="number" class="form-control" style="height:5em;" id="comment1">
+            <input type="text" class="form-control" style="height:5em;" id="comment1">
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>

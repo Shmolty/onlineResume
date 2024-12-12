@@ -15,8 +15,9 @@ You can view the website [here!](https://shmolty.github.io/onlineResume/)
 * Improve the sizing of images on the projects.html page
 * Add live form validation with JS
 * Create a splash/home page for the site
-* GitHub pages does not set up index.html correctly on it's own. Clicking resume in the nav crashes the site (404).
-* Images do not show up on GitHub Pages
+* ~~GitHub pages does not set up index.html correctly on it's own. Clicking resume in the nav crashes the site (404).~~
+* ~~Images do not show up on GitHub Pages~~
+* navbar is not properly shrinking on projects.html. The code is correct and I fixed it for the other two pages, so I'm gonna give it some time to update.
 
 ## Suggestions Please!
 If you have any suggestions on how I can ramp up this site and improve interactivity, please don't hesitate to contact me! You can reach me on [LinkedIn](https://www.linkedin.com/in/colton-gurr/), or send an email to [coltonhgurr@gmail.com](mailto:coltonhgurr@gmail.com)!

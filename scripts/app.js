@@ -1,11 +1,17 @@
 // --- FORM VALIDATION ---
-const form = document.querySelector('.contactForm');
-const phoneHelp = document.querySelector('#phoneHelp');
 
+// handles
+const form = document.querySelector('.contactForm');
+const emailHelp = document.querySelector('#emailHelp');
+const phoneHelp = document.querySelector('#phoneHelp');
+const emailInput = document.querySelector('#email1');
+const phoneInput = document.querySelector('#phoneNum1');
+
+// submit validation
 form.addEventListener('submit', e => {
     e.preventDefault();
     const email = form.email1.value;
-    const emailPattern = /^[a-zA-Z@.]{6,30}$/
+    const emailPattern = /^[a-zA-Z0-9.]*@[a-zA-Z0-9.]*$/
 
     let formValid = true;
 
@@ -28,4 +34,30 @@ form.addEventListener('submit', e => {
         form.phoneNum1.value = null;
     }
 
+});
+
+// live validation
+form.email1.addEventListener('keyup', e => {
+    const emailPattern = /^[a-zA-Z0-9.]*@[a-zA-Z.0-9]*$/
+
+    if(emailPattern.test(e.target.value)){
+        emailInput.classList.remove('error');
+        emailInput.classList.add('success');
+    } else {
+        emailInput.classList.remove('success');
+        emailInput.classList.add('error');
+    }
+
+});
+
+form.phoneNum1.addEventListener('keyup', e => {
+    const phoneNumberPattern = /^[0-9]{0,11}$/;
+
+    if(phoneNumberPattern.test(e.target.value)){
+        phoneInput.classList.remove('error')
+        phoneInput.classList.add('success');
+    } else {
+        phoneInput.classList.remove('success')
+        phoneInput.classList.add('error');
+    }
 });

@@ -13,7 +13,7 @@ You can view the website [here!](https://shmolty.github.io/onlineResume/)
 
 ## Notes / Improvements to Make
 * Improve the sizing of images on the projects.html page
-* Add live form validation with JS
+* ~~Add live form validation with JS~~
 * Create a splash/home page for the site
 * ~~GitHub pages does not set up index.html correctly on it's own. Clicking resume in the nav crashes the site (404).~~
 * ~~Images do not show up on GitHub Pages~~
